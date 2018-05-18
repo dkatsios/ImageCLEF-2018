@@ -1,0 +1,1 @@
+docker run -it --rm -p 127.0.0.1:8888:8888 -w /home/jovyan/work/ -v $(pwd):/home/jovyan/work/ jupyter/minimal-notebook:latest
